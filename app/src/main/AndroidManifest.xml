@@ -20,6 +20,15 @@
             android:name=".DelayedMessageService"
             android:exported="false">
         </service>
+
+        <activity android:name=".MainActivityNew">
+        </activity>
+
+        <service
+            android:name=".OdometrService"
+            android:enabled="true"
+            android:exported="false">
+        </service>
     </application>
 
 </manifest>
